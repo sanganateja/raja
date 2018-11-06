@@ -1,7 +1,7 @@
 pipeline {
   agent any
      stages {
-       stage('chechout scm') {
+       stage('checkout scm') {
          steps {
            git credentialsId: 'ravgit', url: 'https://github.com/sanganateja/raja.git'
            }
