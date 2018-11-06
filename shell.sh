@@ -1,3 +1,3 @@
 !#/bin/bash
-date >> /var/lib/jenkins/workspace/tej.txt
+date >> /var/lib/jenkins/workspace/teja.txt
 
