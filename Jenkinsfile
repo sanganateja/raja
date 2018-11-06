@@ -20,7 +20,7 @@ pipeline {
             steps {
                 timeout(time: 3, unit: 'MINUTES') {
                     retry(5) {
-                        sudo sh './shell.sh'
+                         sh './shell.sh'
                       }
                   }  
               }
