@@ -1,7 +1,12 @@
 pipeline {
   agent any
      stages {
-         stage ('build') {
+       stage('chechout scm') {
+         steps {
+           git credentialsId: 'ravgit', url: 'https://github.com/sanganateja/raja.git'
+           }
+       }
+       stage ('build') {
            steps {
                echo 'building'
             }
