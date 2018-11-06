@@ -1,2 +1,3 @@
 !#/bin/bash
-date >> /home/jenkins/workspace/jen-shell
+date >> /var/lib/jenkins/workspace/tej.txt
+
